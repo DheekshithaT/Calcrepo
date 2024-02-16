@@ -1,2 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using ConsoleApp1;
+Calc calc = new Calc();
+Console.WriteLine("Add Call");
+calc.Add(12, 45);
+Console.WriteLine("Multiply call");
+calc.Mul(10.5,12.45);
